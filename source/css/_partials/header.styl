@@ -38,30 +38,6 @@ header.header
         position: relative;
         display: inline-block;
         font-family: Ebrima;
-        &:before
-          content: attr(data-text);
-          position: absolute;
-          left: -2px;
-          text-shadow: 1px 0 inherit;
-          top: 0;
-          color: inherit;
-          background: inherit;
-          overflow: hidden;
-          clip: rect(0, 900px, 0, 0);
-          height: 100%;
-          animation: noise-anim-2 3s infinite linear alternate-reverse;
-        &:after
-          content: attr(data-text);
-          position: absolute;
-          height: 100%;
-          left: 2px;
-          text-shadow: -1px 0 inherit;
-          top: 0;
-          color: inherit;
-          background: inherit;
-          overflow: hidden;
-          clip: rect(0, 900px, 0, 0);
-          animation: noise-anim 2s infinite linear alternate-reverse;
       .description
         width: 100%;
         text-align: center;
